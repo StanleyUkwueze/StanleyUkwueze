@@ -1,8 +1,11 @@
+/*==== Basic resets starts here==== */
+
 body {
   margin: 0;
   padding: 0;
   border: none;
 }
+
 a {
   text-decoration: none;
   color: #fff;
@@ -10,6 +13,9 @@ a {
   margin-top: 10px;
 }
 
+/*===== Basic resets ends here ====== */
+
+/*======= section_1 starts here =======*/
 .about_us {
   text-align: center;
   margin-top: 30px;
@@ -36,6 +42,10 @@ a {
 .standing_man_img {
   padding: 40px 50px;
 }
+
+/*======= section_1 ends here =======*/
+
+/* ===== footer styles starts here */
 .red_bg_footer {
   display: flex;
   justify-content: space-between;
@@ -48,3 +58,4 @@ a {
   display: flex;
   justify-content: center;
 }
+/* ===== footer styles ends here */

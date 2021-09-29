@@ -1,3 +1,4 @@
+/* ====== Basic resets starts here ===== */
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +11,39 @@ a {
   margin-top: 10px;
 }
 
+/*===== Basic resets ends here ====== */
+
+/*======= section_1 starts here =======*/
+
+/* @media (max-width: 425px) {
+  .underline {
+    position: fixed;
+    background-color: red;
+    width: 65px;
+    height: 6px;
+    margin-left: 25rem;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .about_us {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .standing_man_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    bottom: 50px;
+
+    background-color: #f8f9fa;
+    margin: 50px 40px;
+    padding: 30px 40px;
+  }
+  .standing_man_img {
+    padding: 20px 20px;
+  }
+} */
 .about_us {
   text-align: center;
   margin-top: 30px;
@@ -36,6 +70,10 @@ a {
 .standing_man_img {
   padding: 40px 50px;
 }
+
+/* =======  section_1 ends here  ======*/
+
+/* ===== footer styles starts here */
 .red_bg_footer {
   display: flex;
   justify-content: space-between;
@@ -48,3 +86,4 @@ a {
   display: flex;
   justify-content: center;
 }
+/* ===== footer styles ends here */
