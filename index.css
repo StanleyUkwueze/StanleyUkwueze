@@ -1,4 +1,4 @@
-/* ====== Basic resets starts here ===== */
+/* reset */
 body {
   margin: 0;
   padding: 0;
@@ -7,19 +7,26 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  display: block;
-  margin-top: 10px;
 }
+.navbar {
+  background-color: red;
+  display: flex;
 
-/*===== Basic resets ends here ====== */
-
-/*======= section_1 starts here =======*/
-
+  color: #fff;
+  font-size: 25px;
+  height: 90px;
+  padding: 30px 40px;
+}
+.left-nav-items {
+  margin-right: 30rem;
+}
+.right-nav-item a {
+  color: #fff;
+}
 .about_us {
   text-align: center;
   margin-top: 30px;
 }
-
 .underline {
   background-color: red;
   width: 65px;
@@ -41,10 +48,6 @@ a {
 .standing_man_img {
   padding: 40px 50px;
 }
-
-/* =======  section_1 ends here  ======*/
-
-/* ===== footer styles starts here */
 .red_bg_footer {
   display: flex;
   justify-content: space-between;
@@ -57,4 +60,15 @@ a {
   display: flex;
   justify-content: center;
 }
-/* ===== footer styles ends here */
+.about a {
+  display: block;
+  margin-bottom: 10px;
+}
+.solution a {
+  display: block;
+  margin-bottom: 10px;
+}
+.platform a {
+  display: block;
+  margin-bottom: 10px;
+}
